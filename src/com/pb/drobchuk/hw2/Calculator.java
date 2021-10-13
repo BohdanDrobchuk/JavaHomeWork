@@ -10,11 +10,11 @@ public class Calculator {
         int operand2;
         int result = 0;
         char operation;
-        System.out.println("Ввидите число 1:");
+        System.out.println("Ввидите число:");
         operand1 = scan.nextInt();
         System.out.println("Ввидите операцию:");
         operation = scan.next().charAt(0);
-        System.out.println("Ввидите число 2:");
+        System.out.println("Ввидите число:");
         operand2 = scan.nextInt();
 
         switch (operation) {
