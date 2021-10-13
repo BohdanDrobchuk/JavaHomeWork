@@ -22,7 +22,7 @@ public class Interval {
             System.out.println("Ваш диапазон - [51 - 100]");
         }
         if(num < 0){
-            System.out.println("ааааа нет, число больше нужно");
+            System.out.println("ааааа нет, нужно больше число");
         }
         if(num > 100){
             System.out.println("А есть меньше? Я понимаю только до 100");
