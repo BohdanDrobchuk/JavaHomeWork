@@ -30,7 +30,7 @@ public class Calculator {
                         } else {
                         result = operand1 / operand2;
                         }
-                        break;
+                          break;
                     default:  System.out.println("Упс! Что-то пошло не так");
                         return;
 
