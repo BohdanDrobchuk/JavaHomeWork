@@ -35,7 +35,7 @@ public class Calculator {
                         return;
 
                     }
-         System.out.println("Итог " + result);
+         System.out.println("Итог "+operand1+" "+operation+" "+operand2+" = "+result);
          }
 
    }
