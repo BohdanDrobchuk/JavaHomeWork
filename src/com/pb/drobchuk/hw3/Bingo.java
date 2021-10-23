@@ -36,7 +36,7 @@ public class Bingo {
             if (x < Num) {
                 System.out.println("Попробуй число меньше");
             }
-            if (counter == 6) {
+            if (counter == 100) {
                 System.out.println("Попыток больше нет ((");
                 break;
 
@@ -47,8 +47,6 @@ public class Bingo {
             if (Num < 0) {
                 System.out.println("Число должно быть до >= 0");
             }
-
-
         }
         System.out.println("Ну ты заходи, если что!");
     }
